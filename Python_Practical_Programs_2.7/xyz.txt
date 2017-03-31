@@ -1,0 +1,5 @@
+Python is Interpreted Language
+It has different version: JPython, CPython, IronPython etc
+Python han about 20 frameworks available
+I like DJango framework
+It is used for Web Application Development
