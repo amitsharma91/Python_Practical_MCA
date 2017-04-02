@@ -21,5 +21,9 @@ for i in a:
     else:
         sum += i
 # end for
-    
-print("Sum is: " + str(sum))
+
+print("Recursive list:")    
+for x in a:
+	print(x)
+
+print("Sum of elements is: " + str(sum))

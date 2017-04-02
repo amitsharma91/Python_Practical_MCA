@@ -21,13 +21,13 @@ class Circle:
     
     def perimeter(self):
         return (2 * Circle.PI * self.radius)
-    #end of method
-#end of class
+    # end of method
+# end of class
 
 rad = input("Enter Radius: ")
 
-#create Object
+# create Object
 obj = Circle(rad)
 
-print("Area is: "+str(obj.area()))
-print("Perimeter is: "+str(obj.perimeter()))
+print("Area is: " + str(obj.area()))
+print("Perimeter is: " + str(obj.perimeter()))

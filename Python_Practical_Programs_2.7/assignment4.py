@@ -9,7 +9,7 @@ Expected Result : black-green-red-white-yellow
 
 '''
 # reading string
-s = input("Enter Hyphen-Separated sequence word: ")
+s = raw_input("Enter Hyphen-Separated sequence word: ")
 
 breakList = s.split("-")  # string to List
 breakList.sort()  # sorting list

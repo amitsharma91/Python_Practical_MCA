@@ -12,7 +12,7 @@ listData = list()
 
 # method to create,print list of squares
 def listOfSquares(maxNum):
-    for num in range(1,int(maxNum)+1):
+    for num in range(1, int(maxNum) + 1):
         listData.append(num * num)
     # end of for
     

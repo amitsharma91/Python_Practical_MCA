@@ -8,6 +8,10 @@ Write a Python program to combine each line from first file with the correspondi
 
 import sys
 
+
+print("Combined data of two file (line by line)")
+print("******************************************")
+
 # open both files and print each line combined 
 with open("pqr.txt") as f1, open("xyz.txt") as f2:
     for l1, l2 in zip(f1, f2):

@@ -14,6 +14,6 @@ def gcd(n1, n2):
 # end of Method
 
 n1 = input("Enter first Number: ")
-n2 = input("Enter first Number: ")
+n2 = input("Enter Second Number: ")
 
 print("G.C.D is: " + str(gcd(n1, n2)))

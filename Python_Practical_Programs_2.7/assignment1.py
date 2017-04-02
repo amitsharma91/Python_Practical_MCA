@@ -10,6 +10,7 @@ def myMethod():
     a = 1;
     b = 2.5;
     c = "Three";
+#end of method
     
     print(str(a) + "\n" + str(b) + "\n" + str(c))
 # end of Method

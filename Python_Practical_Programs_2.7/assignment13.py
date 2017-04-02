@@ -18,5 +18,5 @@ class StringDemo:
 # end of class
 
 obj = StringDemo()
-obj.getString("Python")  # setting String
-print(obj.printString())  # printing String in upper case
+obj.getString(raw_input("Enter some string: "))  # setting String
+print("String in Uppercase: "+str(obj.printString()))  # printing String in upper case
